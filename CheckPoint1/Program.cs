@@ -215,30 +215,29 @@ public class Program
         {
             Console.Clear();
             Console.WriteLine("╔══════════════════════════════════════╗");
-            Console.WriteLine("║            ADO.NET DIRETO            ║");
+            Console.WriteLine("║           ADO.NET DIRETO             ║");
             Console.WriteLine("╠══════════════════════════════════════╣");
-            Console.WriteLine("║          CONSULTAS COMPLEXAS         ║");
-            Console.WriteLine("║ 1 - Relatório Vendas Completo        ║");
-            Console.WriteLine("║ 2 - Faturamento por Cliente          ║");
-            Console.WriteLine("║ 3 - Produtos sem Vendas              ║");
+            Console.WriteLine("║         CONSULTAS COMPLEXAS          ║");
+            Console.WriteLine("║  1 - Relatório Vendas Completo       ║");
+            Console.WriteLine("║  2 - Faturamento por Cliente         ║");
+            Console.WriteLine("║  3 - Produtos sem Vendas             ║");
             Console.WriteLine("║                                      ║");
-            Console.WriteLine("║          OPERAÇÕES AVANÇADAS         ║");
-            Console.WriteLine("║ 4 - Atualizar Estoque em Lote        ║");
-            Console.WriteLine("║ 5 - Inserir Pedido Completo          ║");
-            Console.WriteLine("║ 6 - Excluir Dados Antigos            ║");
+            Console.WriteLine("║         OPERAÇÕES AVANÇADAS          ║");
+            Console.WriteLine("║  4 - Atualizar Estoque em Lote       ║");
+            Console.WriteLine("║  5 - Inserir Pedido Completo         ║");
+            Console.WriteLine("║  6 - Excluir Dados Antigos           ║");
             Console.WriteLine("║                                      ║");
-            Console.WriteLine("║          PROCESSOS                   ║");
-            Console.WriteLine("║ 7 - Processar Devolução              ║");
+            Console.WriteLine("║         PROCESSOS COMPLEXOS          ║");
+            Console.WriteLine("║  7 - Processar Devolução             ║");
+            Console.WriteLine("║  8 - Análise Performance             ║");
             Console.WriteLine("║                                      ║");
-            Console.WriteLine("║          ANÁLISES                    ║");
-            Console.WriteLine("║ 8 - Análise Performance              ║");
+            Console.WriteLine("║             UTILITÁRIOS              ║");
+            Console.WriteLine("║  9 - Testar Conexão                  ║");
             Console.WriteLine("║                                      ║");
-            Console.WriteLine("║          UTILITÁRIOS                 ║");
-            Console.WriteLine("║ 9 - Testar Conexão                   ║");
-            Console.WriteLine("║                                      ║");
-            Console.WriteLine("║ 0 - Voltar ao Menu Principal         ║");
+            Console.WriteLine("║  0 - Voltar ao Menu Principal        ║");
             Console.WriteLine("╚══════════════════════════════════════╝");
             Console.Write("Escolha uma opção: ");
+
 
             var opcao = Console.ReadLine()?.Trim();
 
