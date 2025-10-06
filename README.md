@@ -1,4 +1,4 @@
-**Sistema de Gestão de Loja Online — Entity Framework Core + ADO.NET (SQLite)**
+# **Sistema de Gestão de Loja Online — Entity Framework Core + ADO.NET (SQLite)**
 
 > Console app didático que demonstra CRUDs e consultas avançadas com **EF Core** e com **ADO.NET puro** sobre o mesmo banco `SQLite`.
 
