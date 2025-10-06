@@ -191,28 +191,3 @@ UTILITÁRIOS
   * Em Linux/macOS, prefira rodar com .NET 7/8 e pacote Core recente.
 
 ---
-
-## 🧱 Decisões de Projeto
-
-* **Tabelas no plural** (compatibilidade natural com `DbSet<T>` do EF).
-* **Delete Restrict** entre Produto e Itens de Pedido para preservar histórico de vendas.
-* **ADO.NET** e **EF** trabalhando no **mesmo** banco, facilitando comparação entre abordagens.
-
----
-
-## 🗺️ Próximos Passos / Extensões
-
-* Implementar **desconto por item** e **cupons** no fluxo de pedido (EF e ADO.NET).
-* Exportar relatórios em **CSV/JSON**.
-* Paginar listagens no console.
-* Adicionar **validação de CPF** (algoritmo) além do saneamento.
-
----
-
-## 📝 Licença
-
-Projeto acadêmico. Ajuste a licença conforme sua necessidade.
-
----
-
-Qualquer coisa, me diga que eu adapto o README ao formato que você precisa (ex.: com GIFs, screenshots, badges ou seções extras de arquitetura).
