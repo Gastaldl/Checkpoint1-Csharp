@@ -48,8 +48,6 @@ CheckPoint1/
 └─ loja.db  (gerado em runtime dentro de bin/…)
 ```
 
-> Observação: há uma imagem de referência da estrutura no repositório do projeto (quando aplicável).
-
 ---
 
 ## 🚀 Como rodar
